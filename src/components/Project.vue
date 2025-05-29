@@ -41,7 +41,7 @@ const fillNumber = computed(() => {
   justify-content: space-around;
 
   :deep(.el-card) {
-    width: 300px;
+    width: 320px;
 
     .el-card__body {
       width: 100% !important;
@@ -74,7 +74,7 @@ const fillNumber = computed(() => {
 
             .tag {
               a {
-                display: inline-block;
+                display: table;
               }
             }
           }
