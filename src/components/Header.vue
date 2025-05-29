@@ -22,7 +22,7 @@ onUnmounted(() => {
 <template>
   <div class="header">
     <Box class="logo">
-      <img src="http://mwusweb-test.hs6.top/img/logo.66381d86.png" alt="" />
+      <img src="@/assets/logo.png" alt="" />
     </Box>
   </div>
 </template>

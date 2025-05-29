@@ -12,7 +12,11 @@ const fillNumber = computed(() => {
   <div class="box">
     <el-card shadow="hover" v-for="project in projects" :key="project.id">
       <div class="left">
-        <el-image style="width: 40px; height: 40px" :src="project.logo" fit="contain" />
+        <img
+          alt=""
+          src="@/assets/logo.png"
+          style="width: 40px; height: 40px; object-fit: contain"
+        />
       </div>
       <div class="right">
         <div class="app" v-for="app in project.app" :key="app.title">
