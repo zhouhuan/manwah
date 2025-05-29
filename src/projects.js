@@ -115,6 +115,74 @@ export default [
     ],
   },
   {
+    id: 'Domestic Invoicing System',
+    logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
+    app: [
+      {
+        title: '国内开单系统 - PC端',
+        codeUrl: 'http://10.14.3.222:7997/mw_channel_front/Distributor-pc',
+        tag: [
+          {
+            title: 'UAT(uat)',
+            url: 'http://www.cmuat.cheersofa.com/dealer/login',
+            pipeline: 'http://10.14.3.222:8089/job/uat-stockpc-front/',
+          },
+          {
+            title: '生产(master)',
+            url: 'https://dms-china.cheersofa.com/dealer/login',
+            pipeline: 'http://10.14.3.222:8089/job/prod-stockpc-front/',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'E-commerce order management',
+    logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
+    app: [
+      {
+        title: '电商订单(库存共享)平台 - PC端',
+        codeUrl: 'http://10.14.3.222:7997/mw_middle_platform/fronts/stock-share-front',
+        tag: [
+          {
+            title: '测试(dev)',
+            url: 'http://10.14.15.219:9883/',
+            pipeline: 'http://10.14.15.217:8089/job/dev-stock-share-front/',
+          },
+          {
+            title: '生产(master)',
+            url: 'http://10.14.15.219:9883/',
+            pipeline: 'http://10.14.15.217:8089/job/prod-stock-share-front/',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'MW MCN',
+    logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
+    app: [
+      {
+        title: 'MCN达人',
+        codeUrl: 'http://10.14.3.222:7997/zhixiangwang/mcn-live-mgt-pc',
+        tag: [
+          {
+            title: '测试(dev)',
+            url: 'http://120.79.219.146:9183/?wework_cfm_code=MMrtpJ28bO1MTYayx4bURs3KZxvAElTqLwm6f07LECgFiapK2d7V8iKl80FBIbbslNSPXlL0kz%2BpRUXcuyRwv8Q%3D#/login',
+            pipeline:
+              'http://10.14.15.217:8089/view/%E7%94%B5%E5%95%86-dev/job/emall-dev-mcn-live-mgt-pc-front/',
+          },
+          {
+            title: '生产(master)',
+            url: 'https://mcn-front.minjish.cn/',
+            pipeline:
+              'http://10.14.15.217:8089/view/%E7%94%B5%E5%95%86-prod/job/emall-prod-mcn-live-mgt-pc/',
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: 'MW SRM',
     logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
     app: [
@@ -232,72 +300,6 @@ export default [
             title: '生产',
             url: 'https://sms-manwah-h5.oss-cn-shenzhen.aliyuncs.com/#/login',
             pipeline: '',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'Domestic Invoicing System',
-    logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
-    app: [
-      {
-        title: '国内开单系统 - PC端',
-        codeUrl: 'http://10.14.3.222:7997/mw_channel_front/Distributor-pc',
-        tag: [
-          {
-            title: 'UAT(uat)',
-            url: 'http://www.cmuat.cheersofa.com/dealer/login',
-            pipeline: 'http://10.14.3.222:8089/job/uat-stockpc-front/',
-          },
-          {
-            title: '生产(master)',
-            url: 'https://dms-china.cheersofa.com/dealer/login',
-            pipeline: 'http://10.14.3.222:8089/job/prod-stockpc-front/',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'E-commerce order management',
-    logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
-    app: [
-      {
-        title: '电商订单(库存共享)平台 - PC端',
-        codeUrl: 'http://10.14.3.222:7997/mw_middle_platform/fronts/stock-share-front',
-        tag: [
-          {
-            title: '测试(dev)',
-            url: 'http://10.14.15.219:9883/',
-            pipeline: 'http://10.14.15.217:8089/job/dev-stock-share-front/',
-          },
-          {
-            title: '生产(master)',
-            url: 'http://10.14.15.219:9883/',
-            pipeline: 'http://10.14.15.217:8089/job/prod-stock-share-front/',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 'MW MCN',
-    logo: 'http://mwusweb-test.hs6.top/img/logo.66381d86.png',
-    app: [
-      {
-        title: 'MCN达人',
-        codeUrl: 'http://10.14.3.222:7997/zhixiangwang/mcn-live-mgt-pc',
-        tag: [
-          {
-            title: '测试(dev)',
-            url: 'http://120.79.219.146:9183/?wework_cfm_code=MMrtpJ28bO1MTYayx4bURs3KZxvAElTqLwm6f07LECgFiapK2d7V8iKl80FBIbbslNSPXlL0kz%2BpRUXcuyRwv8Q%3D#/login',
-            pipeline: 'http://10.14.15.217:8089/view/%E7%94%B5%E5%95%86-dev/job/emall-dev-mcn-live-mgt-pc-front/',
-          },
-          {
-            title: '生产(master)',
-            url: 'https://mcn-front.minjish.cn/',
-            pipeline: 'http://10.14.15.217:8089/job/prod-stock-share-front/',
           },
         ],
       },
